@@ -1,0 +1,1 @@
+web: gunicorn run_app:app --workers=1 --timeout=120 --log-level=info --bind=0.0.0.0:$PORT
